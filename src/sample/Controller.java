@@ -70,7 +70,7 @@ public class Controller {
     }
 
     public void Calc() {
-
+        // Основной метод
         int usNumber = 0;
 
         usNumber = getUsNumber();
