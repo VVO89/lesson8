@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Label fx:id="remainTry" layoutX="356.0" layoutY="52.0" text="Осталось попыток 3">
+            <font>
+                <Font name="Times New Roman" size="24.0" />
+            </font>
+        </Label>
+        <TextField fx:id="userNumber" layoutX="54.0" layoutY="165.0" />
+        <Label layoutX="53.0" layoutY="131.0" text="Введите число">
+            <font>
+                <Font name="Times New Roman" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="203.0" layoutY="225.0" prefHeight="42.0" prefWidth="128.0" textAlignment="CENTER" />
+        <TextField fx:id="resultField" editable="false" layoutX="54.0" layoutY="267.0" />
+        <Button fx:id="butonCalc" layoutX="54.0" layoutY="200.0" mnemonicParsing="false" onAction="#doCalc" prefHeight="50.0" prefWidth="149.0" text="Вычислить">
+            <font>
+                <Font name="Times New Roman" size="24.0" />
+            </font>
+        </Button>
+        <TextField fx:id="resultPK" editable="false" layoutX="331.0" layoutY="165.0" />
+        <Label layoutX="252.0" layoutY="131.0" text="Загаданное компьютером число">
+            <font>
+                <Font name="Times New Roman" size="24.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
