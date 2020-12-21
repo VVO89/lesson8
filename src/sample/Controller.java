@@ -125,7 +125,7 @@ public class Controller {
     }
 
     private boolean isNumeric(String strNumber){
-
+        // Другого метода пока не нашел
         try {
             int a = Integer.parseInt(strNumber);
         }catch (NumberFormatException e){
